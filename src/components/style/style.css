@@ -1,0 +1,43 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url("../image/weather.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  background: rgb(1, 31, 39);
+  width: 450px;
+  height: 50vh;
+  border-radius: 16px;
+  opacity: 80%;
+  box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+    0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.inputfield {
+  border-bottom: 4px solid lightslategray;
+  border-radius: 10px;
+  opacity: 80%;
+  height: 6vh;
+}
+
+.output {
+  font-weight: bold;
+  color: white;
+}
+
+.wrong {
+  font-weight: bold;
+  color: white;
+}
